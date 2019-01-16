@@ -1,0 +1,368 @@
+[01-Sep-2018 20:05:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Hcode\Model\mcrypt_encrypt() in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Model/User.php:239
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-login.php(110): Hcode\Model\User::getForgot('kanoa2030508187...', false)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 239
+[01-Sep-2018 20:06:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Hcode\Model\mcrypt_encrypt() in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Model/User.php:239
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-login.php(110): Hcode\Model\User::getForgot('kanoa2030508187...', false)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#8 /home/ in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 239
+[01-Sep-2018 20:07:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Hcode\Model\mcrypt_encrypt() in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Model/User.php:239
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/admin.php(58): Hcode\Model\User::getForgot('kanoa2030508187...')
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#8 /home/dfeco27mwm6v/ in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 239
+[01-Sep-2018 20:48:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\User::checkLoginExists() in /home/dfeco27mwm6v/public_html/site-profile.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home/dfeco27mwm6v/public_html/index.php(24): Slim\Slim->run()
+#8 {main}
+  thrown in /home/dfeco27mwm6v/public_html/site-profile.php on line 44
+[01-Sep-2018 20:48:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\User::checkLoginExists() in /home/dfeco27mwm6v/public_html/site-profile.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home/dfeco27mwm6v/public_html/index.php(24): Slim\Slim->run()
+#8 {main}
+  thrown in /home/dfeco27mwm6v/public_html/site-profile.php on line 44
+[01-Sep-2018 20:50:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\User::checkLoginExists() in /home/dfeco27mwm6v/public_html/site-profile.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home/dfeco27mwm6v/public_html/index.php(24): Slim\Slim->run()
+#8 {main}
+  thrown in /home/dfeco27mwm6v/public_html/site-profile.php on line 44
+[01-Sep-2018 22:02:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\User::checkLoginExists() in /home/dfeco27mwm6v/public_html/site-profile.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home/dfeco27mwm6v/public_html/index.php(24): Slim\Slim->run()
+#8 {main}
+  thrown in /home/dfeco27mwm6v/public_html/site-profile.php on line 44
+[01-Sep-2018 22:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\User::checkLoginExists() in /home/dfeco27mwm6v/public_html/site-profile.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home/dfeco27mwm6v/public_html/index.php(24): Slim\Slim->run()
+#8 {main}
+  thrown in /home/dfeco27mwm6v/public_html/site-profile.php on line 44
+[01-Sep-2018 22:04:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Hcode\Model\User::checkLoginExists() in /home/dfeco27mwm6v/public_html/site-profile.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#7 /home/dfeco27mwm6v/public_html/index.php(24): Slim\Slim->run()
+#8 {main}
+  thrown in /home/dfeco27mwm6v/public_html/site-profile.php on line 44
+[04-Sep-2018 00:04:23 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:05:05 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:06:20 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:13:04 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:13:18 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:15:13 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:32:10 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:34:20 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:53:14 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:55:14 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:56:57 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[04-Sep-2018 00:57:33 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/Mailer.php on line 10
+[12-Sep-2018 00:22:41 UTC] PHP Notice:  Undefined variable: app in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[12-Sep-2018 00:22:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/dfeco27mwm6v/public_html/admin.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[12-Sep-2018 01:18:40 UTC] PHP Notice:  Undefined variable: app in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[12-Sep-2018 01:18:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/dfeco27mwm6v/public_html/admin.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[12-Sep-2018 01:31:15 UTC] PHP Notice:  Undefined variable: app in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[12-Sep-2018 01:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/dfeco27mwm6v/public_html/admin.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[12-Sep-2018 01:45:09 UTC] PHP Notice:  Undefined variable: app in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[12-Sep-2018 01:45:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/dfeco27mwm6v/public_html/admin.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/dfeco27mwm6v/public_html/admin.php on line 6
+[22-Sep-2018 03:48:23 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:48:27 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:48:37 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:48:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:48:46 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:48:47 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:49:24 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:50:57 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 03:52:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 04:01:51 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 04:02:49 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 04:02:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 04:02:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 04:06:11 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 04:06:31 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[22-Sep-2018 04:08:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home/dfeco27mwm6v/public_html/site-pagseguro.php on line 266 and defined in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home/dfeco27mwm6v/public_html/site-pagseguro.php(266): Hcode\PagSeguro\Item->__construct(17, 'AudioBox USB - ...', 'A AudioBox USB ...', 469, 1)
+#1 [internal function]: {closure}()
+#2 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home/dfeco27mwm6v/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions. in /home/dfeco27mwm6v/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[24-Dec-2018 15:18:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Send() on null in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php:287
+Stack trace:
+#0 /home1/blueflam/public_html/site-login.php(110): Hcode\Model\User::getForgot('gabrielsouzadon...', false)
+#1 [internal function]: {closure}()
+#2 /home1/blueflam/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#8 /home1/blueflam/public_html/index.php(24): Sl in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 287
+[24-Dec-2018 15:19:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Send() on null in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php:287
+Stack trace:
+#0 /home1/blueflam/public_html/site-login.php(110): Hcode\Model\User::getForgot('gabrielsouzadon...', false)
+#1 [internal function]: {closure}()
+#2 /home1/blueflam/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#8 /home1/blueflam/public_html/index.php(24): Sl in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 287
+[24-Dec-2018 15:20:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function Send() on null in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php:287
+Stack trace:
+#0 /home1/blueflam/public_html/site-login.php(110): Hcode\Model\User::getForgot('gabrielsouzadon...', false)
+#1 [internal function]: {closure}()
+#2 /home1/blueflam/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1159): Slim\Middleware\PrettyExceptions->call()
+#8 /home1/blueflam/public_html/index.php(24): Sl in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 287
+[24-Dec-2018 15:26:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:26:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:27:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:27:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:28:28 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:28:42 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:28:59 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:29:57 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:30:34 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:30:40 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:30:48 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:30:51 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:31:04 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[24-Dec-2018 15:32:36 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/Model/User.php on line 290
+[05-Jan-2019 16:33:12 UTC] PHP Fatal error:  Uncaught Exception: Serialization of 'SimpleXMLElement' is not allowed in [no active file]:0
+Stack trace:
+#0 {main}
+  thrown in [no active file] on line 0
+[05-Jan-2019 16:35:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home1/blueflam/public_html/site-pagseguro.php on line 187 and defined in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home1/blueflam/public_html/site-pagseguro.php(187): Hcode\PagSeguro\Item->__construct(21, 'Rinnai - Aquece...', 'DIMENSIONAMENTO...', 18.5, 1)
+#1 [internal function]: {closure}()
+#2 /home1/blueflam/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middlewar in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[05-Jan-2019 16:36:20 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home1/blueflam/public_html/site-pagseguro.php on line 187 and defined in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home1/blueflam/public_html/site-pagseguro.php(187): Hcode\PagSeguro\Item->__construct(21, 'Rinnai - Aquece...', 'DIMENSIONAMENTO...', 18.5, 1)
+#1 [internal function]: {closure}()
+#2 /home1/blueflam/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middlewar in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[05-Jan-2019 16:36:42 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home1/blueflam/public_html/site-pagseguro.php on line 123 and defined in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home1/blueflam/public_html/site-pagseguro.php(123): Hcode\PagSeguro\Item->__construct(21, 'Rinnai - Aquece...', 'DIMENSIONAMENTO...', 18.5, 1)
+#1 [internal function]: {closure}()
+#2 /home1/blueflam/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middlewar in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
+[05-Jan-2019 16:37:00 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Hcode\PagSeguro\Item::__construct() must be of the type float, string given, called in /home1/blueflam/public_html/site-pagseguro.php on line 123 and defined in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php:16
+Stack trace:
+#0 /home1/blueflam/public_html/site-pagseguro.php(123): Hcode\PagSeguro\Item->__construct(21, 'Rinnai - Aquece...', 'DIMENSIONAMENTO...', 18.5, 1)
+#1 [internal function]: {closure}()
+#2 /home1/blueflam/public_html/vendor/slim/slim/Slim/Router.php(200): call_user_func_array(Object(Closure), Array)
+#3 /home1/blueflam/public_html/vendor/slim/slim/Slim/Slim.php(1210): Slim\Router->dispatch(Object(Slim\Route))
+#4 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /home1/blueflam/public_html/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middlewar in /home1/blueflam/public_html/vendor/hcodebr/php-classes/src/PagSeguro/Item.php on line 16
